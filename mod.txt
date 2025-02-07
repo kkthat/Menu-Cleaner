@@ -1,0 +1,17 @@
+{
+    "name": "Menu Cleaner",
+    "description": "Cleans up the mess left by starbreeze.",
+    "author": "kkthat",
+    "image": "icon.png",
+    "version": "1.0",
+    "hooks": [
+        {
+            "hook_id": "lib/managers/menu/menucomponentmanager",
+            "script_path": "lua/MenuComponentManagerHook.lua"
+        },
+        {
+            "hook_id": "lib/managers/menumanager",
+            "script_path": "lua/MenuManagerHook.lua"
+        }
+    ]
+}
